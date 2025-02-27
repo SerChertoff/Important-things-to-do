@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background: url("https://images.wallpaperscraft.ru/image/single/sinij_splav_linii_88083_1024x600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+@media (max-width: 700px) {
+    .info {
+      text-align: center;
+      display: block;
+    }
+}
+.todo {
+    margin: 50px auto;
+    padding: 0.5em;
+    width: 500px;
+    border: 1px solid rgb(215, 13, 13);
+    background-color: rgb(7, 163, 225);
+}
+
+.text-field-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-field-wrapper input {
+    flex-grow: 3;
+    height: 30px;
+}
+
+.text-field-wrapper button {
+    flex-grow: 1;
+    height: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-item {
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(13, 13, 214);
+    background-color: rgb(233, 221, 10);
+}
